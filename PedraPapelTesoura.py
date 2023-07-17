@@ -3,8 +3,10 @@ import random
 
 usuario = input("Escolha 'PD' para pedra, 'PA' para papel e 'TS' para tesoura: ")
 
+#definindo a escolha da maquina
 comp = random.choice(['PD','PA','TS'])
 
+#modelo de decisão if/elif/else que determina vitoria,derrota ou empate
 if usuario == comp :
     print('Empate')
 
